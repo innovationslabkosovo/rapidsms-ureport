@@ -26,21 +26,21 @@ setup(
 
     dependency_links=[
         "http://github.com/mvpdev/django-eav/tarball/master#egg=django-eav",
-        "http://github.com/unicefuganda/rapidsms-polls/tarball/master#egg=rapidsms-polls",
-        "http://github.com/unicefuganda/rapidsms-httprouter/tarball/master#egg=rapidsms-httprouter",
-        "http://github.com/unicefuganda/rapidsms-unregister/tarball/master#egg=rapidsms-unregister",
-        "http://github.com/unicefuganda/rapidsms-polls/tarball/master#egg=rapidsms-polls",
-        "http://github.com/unicefuganda/rapidsms-contact/tarball/master#egg=rapidsms-contact",
-        "http://github.com/unicefuganda/rapidsms-generic/tarball/master#egg=rapidsms-generic",
-        "http://github.com/unicefuganda/rapidsms-script/tarball/master#egg=rapidsms-script",
-        "http://github.com/unicefuganda/uganda_common/tarball/master#egg=uganda-common",
-        "http://github.com/unicefuganda/auth/tarball/master#egg=rapidsms-auth",
+        "http://github.com/unicefuganda/rapidsms-polls#egg=rapidsms-polls",
+        "http://github.com/unicefuganda/rapidsms-httprouter#egg=rapidsms-httprouter",
+        "http://github.com/unicefuganda/rapidsms-unregister#egg=rapidsms-unregister",
+        "http://github.com/unicefuganda/rapidsms-polls#egg=rapidsms-polls",
+        "http://github.com/unicefuganda/rapidsms-contact#egg=rapidsms-contact",
+        "http://github.com/unicefuganda/rapidsms-generic#egg=rapidsms-generic",
+        "http://github.com/unicefuganda/rapidsms-script#egg=rapidsms-script",
+        "http://github.com/unicefuganda/uganda_common#egg=uganda-common",
+        "http://github.com/unicefuganda/auth#egg=rapidsms-auth",
     ],
 
     scripts=["ureport-admin.py", "ureport-install.sh"],
 
     description='The uReport social advocacy program deployed in Uganda.',
-    long_description=open('README.rst').read(),
+    #long_description=open('README.rst').read(),
     author='David McCann',
     author_email='david.a.mccann@gmail.com',
 
